@@ -33,7 +33,7 @@ class ProfileCard extends StatelessWidget {
           shape: BoxShape.rectangle,
           boxShadow: <BoxShadow>[
             BoxShadow(
-              color: Colors.white54,
+              blurRadius: 2.0,
               offset: Offset(0.0, 10.0),
             )
           ]),
